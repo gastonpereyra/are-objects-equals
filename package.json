@@ -1,0 +1,27 @@
+{
+  "name": "compareobject",
+  "version": "0.1.0",
+  "description": "A tool to compare objects easyly",
+  "main": "index.js",
+  "scripts": {
+    "test": "export TEST_ENV=true; mocha --exit -R nyan --recursive tests/",
+    "test-ci": "nyc --reporter=html --reporter=text mocha --exit --recursive tests/",
+    "watch-test": "export TEST_ENV=true; mocha --exit -R nyan -w --recursive tests/",
+    "coverage": "nyc npm test",
+    "lint": "eslint lib/ tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gastonpereyra/compareObject.git"
+  },
+  "keywords": [
+    "object",
+    "compare"
+  ],
+  "author": "Gastón Pereyra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gastonpereyra/compareObject/issues"
+  },
+  "homepage": "https://github.com/gastonpereyra/compareObject#readme"
+}
