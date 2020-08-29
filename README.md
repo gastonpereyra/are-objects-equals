@@ -1,10 +1,27 @@
-# compareObject
+# are-objects-equals
 
-[![Build Status](https://travis-ci.org/compareObject.svg?branch=master)](https://travis-ci.org/compareObject)
-[![Coverage Status](https://coveralls.io/repos/github/compareObject/badge.svg?branch=master)](https://coveralls.io/github/compareObject?branch=master)
+## Code Quality Status
+![Build Status](https://github.com/gastonpereyra/are-objects-equals/workflows/Build%20Status/badge.svg)
+[![Coverage Status](https://img.shields.io/coveralls/github/gastonpereyra/are-objects-equals/master.svg)](https://coveralls.io/r/gastonpereyra/are-objects-equals?branch=master)
+
+## Description
+A tool to compare objects easyly 
 
 ## Installation
 
-```sh
-npm install --save compareObject
 ```
+npm i are-objects-equals
+```
+
+## Methods
+
+## Usage
+
+```js
+const areObjectsEquals = require('are-objects-equals');
+
+/*
+output: 
+*/
+```
+## Extra

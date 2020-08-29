@@ -33,7 +33,7 @@ module.exports = {
 		'prefer-template': 0,
 		'import/no-unresolved': 0,
 		'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/tests/**/*.js'] }],
-
+		'no-console': 0,
 		'no-bitwise': 0,
 
 		curly: ['error', 'multi-or-nest'],
@@ -51,10 +51,10 @@ module.exports = {
 		'func-names': 0,
 
 		'space-before-function-paren': ['error', {
-			'anonymous': 'never',
-			'named': 'never',
-			'asyncArrow': 'always'
-	  }],
+			anonymous: 'never',
+			named: 'never',
+			asyncArrow: 'always'
+		}],
 
 		'arrow-parens': ['error', 'as-needed'],
 		'arrow-body-style': 0,
