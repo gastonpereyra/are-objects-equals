@@ -1,4 +1,4 @@
-# are-objects-equal
+# are-objects-equals
 
 ## Code Quality Status
 ![Build Status](https://github.com/gastonpereyra/are-objects-equals/workflows/Build%20Status/badge.svg)
@@ -12,12 +12,12 @@ A Function to compare and normalize objects easier
 ## Installation
 
 ```
-npm i are-objects-equal
+npm i are-objects-equals
 ```
 
 ## Parmas
 
-`areObjectsEqual(objectBase, objectToCompare, options)`
+`areObjectsEquals(objectBase, objectToCompare, options)`
 
 ### objectBase and objectToCompare
 
@@ -57,12 +57,12 @@ Example
 
 ## Usage
 
-### areObjectsEqual(objectBase, objectToCompare)
+### areObjectsEquals(objectBase, objectToCompare)
 
 Will compare the 2 objects without any formatting
 
 ```js
-const areObjectsEqual = require('are-objects-equals');
+const areObjectsEquals = require('are-objects-equals');
 
 const playerSample1 = {
     name: "Juan Román",
@@ -80,25 +80,25 @@ const playerSample2 = {
     number: 10
 }
 
-areObjectsEqual(playerSample1, playerSample2);
+areObjectsEquals(playerSample1, playerSample2);
 
 /*
 output: false
 */
 
-areObjectsEqual(playerSample1, playerSample1);
+areObjectsEquals(playerSample1, playerSample1);
 
 /*
 output: true
 */
 ```
 
-### areObjectsEqual(objectBase, objectToCompare, options)
+### areObjectsEquals(objectBase, objectToCompare, options)
 
 Will compare objects after normalize them
 
 ```js
-const areObjectsEqual = require('are-objects-equals');
+const areObjectsEquals = require('are-objects-equals');
 
 const playerSample1 = {
     name: "Juan Román",
@@ -116,7 +116,7 @@ const playerSample2 = {
     number: 10
 }
 
-areObjectsEqual(playerSample1, playerSample2, { fieldsToKeep: ["name", "lastname", "clubs", "number"]});
+areObjectsEquals(playerSample1, playerSample2, { fieldsToKeep: ["name", "lastname", "clubs", "number"]});
 
 /*
 output: true
@@ -130,7 +130,7 @@ const playerSample3 = {
     stillPlaying: true
 }
 
-areObjectsEqual(playerSample1, playerSample3, { fieldsToRemove: ["name", "lastname", "clubs", "stillPlaying"]});
+areObjectsEquals(playerSample1, playerSample3, { fieldsToRemove: ["name", "lastname", "clubs", "stillPlaying"]});
 
 /*
 output: true
