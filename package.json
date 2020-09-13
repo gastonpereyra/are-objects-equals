@@ -1,7 +1,7 @@
 {
-  "name": "are-objects-equals",
+  "name": "are-objects-equal",
   "version": "1.0.0",
-  "description": "A tool to compare objects easyly",
+  "description": "A tool to compare objects easier",
   "main": "lib/are-objects-equals.js",
   "files": [
     "lib/"
