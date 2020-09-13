@@ -2,7 +2,7 @@
   "name": "are-objects-equals",
   "version": "1.0.0",
   "description": "A tool to compare objects easyly",
-  "main": "lib/index.js",
+  "main": "lib/are-objects-equals.js",
   "files": [
     "lib/"
   ],
@@ -31,11 +31,10 @@
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.22.0",
     "mocha": "^8.0.1",
-    "nyc": "^15.1.0",
-    "sinon": "^9.0.2"
+    "nyc": "^15.1.0"
   },
   "dependencies": {
-    "objects-normalizer": "^1.0.1",
+    "objects-normalizer": "^1.0.3",
     "press-f": "^1.1.0"
   }
 }
