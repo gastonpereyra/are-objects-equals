@@ -15,7 +15,7 @@ A Function to compare and normalize objects easier
 npm i are-objects-equals
 ```
 
-## Parmas
+## Params
 
 `areObjectsEquals(objectBase, objectToCompare, options)`
 
