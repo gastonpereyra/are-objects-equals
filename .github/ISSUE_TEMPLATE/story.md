@@ -1,7 +1,7 @@
 ---
 name: Story
 about: Story to organize development
-title: "[STORY]"
+title: "[STORY] - AOE - NUMBER -"
 labels: enhancement
 assignees: gastonpereyra
 
