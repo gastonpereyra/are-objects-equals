@@ -1,7 +1,7 @@
 ---
 name: Story
 about: Story to organize development
-title: "[STORY] - AOE - NUMBER -"
+title: "[Are Objects Equals] - Package -"
 labels: enhancement
 assignees: gastonpereyra
 

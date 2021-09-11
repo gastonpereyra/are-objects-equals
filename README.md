@@ -1,4 +1,4 @@
-# are-objects-equals
+# Are Objects Equals
 
 ## Code Quality Status
 ![Build Status](https://github.com/gastonpereyra/are-objects-equals/workflows/Build%20Status/badge.svg)

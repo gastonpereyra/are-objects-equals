@@ -1,11 +1,3 @@
----
-name: PR
-title: "PR - AOE - NUMBER -"
-labels: enhancement
-assignees: gastonpereyra
-
----
-
 # :speech_balloon: Pull Request
 
 ## :link: Story
